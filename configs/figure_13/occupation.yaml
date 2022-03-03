@@ -1,0 +1,40 @@
+# Name of the dataset to be experimented on, the target model is trained on this dataset
+# Possible values: Adult, GSS, fivethirtyeight
+dataset: Adult
+
+# Name of the attack being experimented
+# Possible values: CSMIA, LOMIA
+attack_type: CSMIA
+
+# Type of the target model being attacked
+# Possible values: DT, DNN [DT stands for decision tree, DNN stands for Deep Neural Network]
+target_model_type: DT
+
+# The sensitive attribute field that is being inferred
+# Possible values: If dataset is Adult then ['marital'], If dataset is GSS then ['xmovie'], If dataset is fivethirtyeight then ['alcohol'] or ['age'] or ['alcohol', 'age']
+# Please do not use any field that does not exist in the fields of the dataset
+sensitive_attributes: ['marital']
+
+# This is for the partial knowledge attack
+# Possible values: Any combination of non-sensitive fields existing in the dataset
+# Warning: Please do not use more than 2 missing fields in case of CSMIA, it will cause combinatorial explosion.
+# Note: For LOMIA, to produce the comparison presented in the paper, please set the attack category to 'part_know_att_incr_importance'
+missing_nonsensitive_attributes: ['occupation']
+
+# This is to specify which type of specialized attack is being performed
+# Possible values: 'part_know_att_incr_importance', 'distributional_vulnerability', 'distributional_privacy_leakage', 'prepare_LOMIA_attack_dataset'
+# Note: If no specialized attack is desired, please comment out the following line
+# attack_category: 
+
+# This is to specify which group is being targeted for the disparate vulnerabiliy attack
+# Possible values: Any non-sensitive fields existing in the dataset
+# Note: Please comment out if the attack category is not disparate vulnerability
+# extra_field_for_attack_category: 
+
+#formatting related settings
+# Set true if confusion matrix visual plot is desired
+show_confusion_matrix_visually: False
+
+#the following parameters are specific to CSMIA attacks only
+# Set true if individual case reports from CSMIA is desired
+show_case_reports: False

@@ -1,0 +1,323 @@
+response_id,lottery,smoking,alcohol,gambling,skydiving,speeding,infidelity,steak,gender,age,income,education,location,steak_type
+3234896919,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,45-60,,Some college or Associate degree,Pacific,Medium
+3234947477,Lottery B,No,Yes,Yes,Yes,Yes,No,Yes,Male,18-29,"$50,000 - $99,999",Bachelor degree,West South Central,Medium
+3234870354,Lottery B,Yes,No,No,No,No,No,Yes,Female,> 60,"$0 - $24,999",Some college or Associate degree,Middle Atlantic,Rare
+3234926887,Lottery B,No,No,No,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Bachelor degree,,Medium
+3234894892,Lottery B,No,Yes,No,No,Yes,No,Yes,Male,30-44,"$25,000 - $49,999",Bachelor degree,Pacific,Rare
+3234813682,Lottery A,No,Yes,No,No,No,No,Yes,Female,18-29,"$0 - $24,999",Some college or Associate degree,Pacific,Medium
+3234789052,Lottery A,No,Yes,No,No,Yes,Yes,Yes,Female,45-60,"$50,000 - $99,999",Graduate degree,West North Central,Rare
+3234869188,Lottery A,Yes,No,No,Yes,No,No,Yes,Female,18-29,"$25,000 - $49,999",High school degree,Middle Atlantic,Medium Well
+3234771246,Lottery A,No,Yes,Yes,No,Yes,Yes,Yes,Male,30-44,"$50,000 - $99,999",Graduate degree,East North Central,Medium Well
+3234834715,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,> 60,"$100,000 - $149,999",Bachelor degree,Middle Atlantic,Rare
+3234785679,Lottery A,No,No,Yes,No,No,No,Yes,Female,> 60,"$50,000 - $99,999",High school degree,Mountain,Medium
+3234845146,Lottery A,No,Yes,No,No,Yes,Yes,Yes,Female,45-60,"$50,000 - $99,999",Graduate degree,South Atlantic,Medium Well
+3234779361,Lottery B,No,No,No,No,Yes,No,Yes,Male,> 60,"$100,000 - $149,999",Graduate degree,East South Central,Medium Well
+3234945250,Lottery B,No,Yes,No,Yes,Yes,No,Yes,Male,> 60,"$50,000 - $99,999",Bachelor degree,Pacific,Medium Well
+3234839875,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,30-44,"$25,000 - $49,999",Bachelor degree,New England,Medium rare
+3234836354,Lottery A,No,Yes,No,Yes,Yes,No,Yes,Female,45-60,"$50,000 - $99,999",Bachelor degree,New England,Medium rare
+3234791203,Lottery B,Yes,Yes,Yes,No,No,Yes,Yes,Female,30-44,"$50,000 - $99,999",Graduate degree,Mountain,Medium rare
+3234828054,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,45-60,"$50,000 - $99,999",Some college or Associate degree,Mountain,Medium rare
+3234803474,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,> 60,"$150,000+",Some college or Associate degree,South Atlantic,Medium
+3234780649,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,18-29,"$25,000 - $49,999",Graduate degree,West North Central,Medium
+3234778259,Lottery A,No,Yes,No,No,Yes,No,Yes,Female,18-29,,Some college or Associate degree,East North Central,Medium
+3234830173,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Female,18-29,"$25,000 - $49,999",Some college or Associate degree,East North Central,Medium rare
+3234936804,Lottery B,No,No,No,No,Yes,No,Yes,Male,> 60,"$25,000 - $49,999",Some college or Associate degree,Middle Atlantic,Medium rare
+3234839418,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Some college or Associate degree,Pacific,Medium
+3234778061,Lottery A,No,Yes,Yes,No,Yes,Yes,Yes,Male,45-60,,Graduate degree,West South Central,Medium Well
+3234863245,Lottery B,No,Yes,Yes,Yes,Yes,Yes,Yes,Male,30-44,"$50,000 - $99,999",Bachelor degree,South Atlantic,Medium rare
+3234874602,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Male,> 60,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Medium Well
+3234773444,Lottery A,No,No,No,No,No,No,Yes,Male,30-44,"$50,000 - $99,999",Graduate degree,West North Central,Medium rare
+3234837794,Lottery A,No,Yes,No,No,Yes,No,Yes,Female,> 60,"$25,000 - $49,999",High school degree,New England,Medium
+3234821322,Lottery B,No,Yes,No,No,Yes,No,Yes,,,,,,Medium
+3234928702,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Some college or Associate degree,East North Central,Medium
+3234857554,Lottery B,No,No,No,No,No,No,Yes,Male,30-44,,Graduate degree,Mountain,Well
+3234837477,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Male,18-29,"$100,000 - $149,999",Bachelor degree,Pacific,Medium
+3234878934,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,30-44,"$100,000 - $149,999",Bachelor degree,East North Central,Medium
+3234807325,Lottery A,No,Yes,Yes,Yes,Yes,No,Yes,Male,30-44,"$100,000 - $149,999",Bachelor degree,East North Central,Medium rare
+3234777247,Lottery B,No,Yes,Yes,Yes,Yes,No,Yes,Male,45-60,"$0 - $24,999",Bachelor degree,Pacific,Medium
+3234774379,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,> 60,,Graduate degree,New England,Medium rare
+3234816708,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,30-44,"$150,000+",Graduate degree,Mountain,Medium Well
+3234859369,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,> 60,,Some college or Associate degree,East South Central,Medium rare
+3234910677,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,> 60,"$100,000 - $149,999",Some college or Associate degree,East North Central,Medium
+3234863826,Lottery B,No,Yes,Yes,No,No,No,Yes,Female,> 60,"$0 - $24,999",Some college or Associate degree,South Atlantic,Medium
+3234853259,Lottery A,No,Yes,No,No,Yes,Yes,Yes,Female,> 60,"$25,000 - $49,999",Graduate degree,Pacific,Rare
+3234843042,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,18-29,"$50,000 - $99,999",Graduate degree,West South Central,Medium Well
+3234816090,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,45-60,"$0 - $24,999",High school degree,West North Central,Medium
+3234814278,Lottery A,No,Yes,No,No,Yes,No,Yes,Female,18-29,"$0 - $24,999",Bachelor degree,South Atlantic,Medium Well
+3234781892,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,45-60,,Graduate degree,South Atlantic,Medium rare
+3234878909,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Some college or Associate degree,East North Central,Medium
+3234953052,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Male,18-29,"$50,000 - $99,999",Bachelor degree,East North Central,Medium
+3234769677,Lottery A,No,No,Yes,No,Yes,No,Yes,Female,30-44,"$0 - $24,999",Some college or Associate degree,West South Central,Medium Well
+3234845685,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,> 60,"$25,000 - $49,999",High school degree,South Atlantic,Medium rare
+3234935763,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Male,18-29,"$50,000 - $99,999",High school degree,West North Central,Medium Well
+3234828740,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,18-29,"$25,000 - $49,999",Bachelor degree,South Atlantic,Medium
+3234772281,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Male,30-44,"$100,000 - $149,999",Bachelor degree,South Atlantic,Medium rare
+3234785000,Lottery B,No,Yes,No,Yes,Yes,No,Yes,Female,30-44,"$100,000 - $149,999",Graduate degree,West North Central,Medium
+3234827738,Lottery B,No,Yes,No,,Yes,No,Yes,Male,18-29,"$25,000 - $49,999",Some college or Associate degree,Mountain,Medium Well
+3234899967,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,> 60,"$50,000 - $99,999",Bachelor degree,Pacific,Medium
+3234814651,Lottery A,Yes,Yes,No,No,,Yes,Yes,Male,> 60,"$50,000 - $99,999",Some college or Associate degree,South Atlantic,Medium rare
+3234911137,Lottery A,No,Yes,Yes,No,Yes,Yes,Yes,Male,45-60,"$150,000+",Bachelor degree,South Atlantic,Medium
+3234761071,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Some college or Associate degree,South Atlantic,Medium rare
+3234781534,Lottery A,No,No,Yes,No,Yes,No,Yes,Female,18-29,"$25,000 - $49,999",Graduate degree,South Atlantic,Medium rare
+3234787013,Lottery A,No,No,Yes,No,Yes,Yes,Yes,Male,45-60,"$100,000 - $149,999",Bachelor degree,West South Central,Medium
+3234889696,Lottery A,No,Yes,No,No,Yes,No,Yes,Female,> 60,"$100,000 - $149,999",Graduate degree,East North Central,Medium rare
+3234946739,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Male,18-29,"$50,000 - $99,999",Graduate degree,Pacific,Rare
+3234802671,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,> 60,"$50,000 - $99,999",Graduate degree,New England,Medium
+3234817193,Lottery B,No,No,No,No,No,Yes,Yes,Female,30-44,,High school degree,East North Central,Well
+3234899145,Lottery B,Yes,Yes,No,No,No,Yes,Yes,Male,18-29,"$0 - $24,999",Some college or Associate degree,South Atlantic,Medium rare
+3234767721,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Female,30-44,"$50,000 - $99,999",Some college or Associate degree,South Atlantic,Medium
+3234789421,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,45-60,,Some college or Associate degree,Mountain,Well
+3234819429,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Graduate degree,Middle Atlantic,Medium
+3234797602,Lottery B,No,No,No,No,Yes,No,Yes,Female,> 60,,Some college or Associate degree,Pacific,Medium rare
+3234843266,Lottery A,,No,,No,No,No,,Female,30-44,"$0 - $24,999",Bachelor degree,Middle Atlantic,Medium Well
+3234785058,Lottery B,Yes,Yes,Yes,No,Yes,Yes,Yes,Male,30-44,"$100,000 - $149,999",Bachelor degree,South Atlantic,Medium rare
+3234871274,Lottery B,Yes,Yes,Yes,No,Yes,No,Yes,Male,30-44,"$25,000 - $49,999",Some college or Associate degree,Pacific,Medium
+3234808857,Lottery B,No,Yes,Yes,No,Yes,No,Yes,,,,,,Medium rare
+3234791290,Lottery A,No,No,No,No,Yes,No,Yes,Female,18-29,,High school degree,West North Central,Medium
+3234816931,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Female,18-29,,Some college or Associate degree,Pacific,Well
+3234951249,Lottery B,No,Yes,Yes,No,No,No,Yes,Male,> 60,"$25,000 - $49,999",Some college or Associate degree,Pacific,Medium rare
+3234820022,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,30-44,"$100,000 - $149,999",Graduate degree,Pacific,Medium rare
+3234768064,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,30-44,"$100,000 - $149,999",Graduate degree,East North Central,Medium rare
+3234870079,Lottery B,No,No,No,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Some college or Associate degree,New England,Medium rare
+3234761877,Lottery A,No,No,Yes,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Graduate degree,Pacific,Medium Well
+3234914768,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,> 60,"$150,000+",Bachelor degree,West North Central,Medium rare
+3234908558,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,> 60,,Graduate degree,East North Central,Medium
+3234871183,Lottery B,No,No,Yes,No,Yes,No,Yes,Male,45-60,"$150,000+",Some college or Associate degree,Pacific,Medium
+3234843097,Lottery B,No,Yes,Yes,No,Yes,Yes,Yes,Female,30-44,"$150,000+",Bachelor degree,New England,Medium
+3234848624,Lottery A,No,Yes,No,Yes,Yes,No,Yes,Female,30-44,"$100,000 - $149,999",Graduate degree,West South Central,Medium rare
+3234877084,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,> 60,"$150,000+",Graduate degree,South Atlantic,Medium rare
+3234869539,Lottery A,No,Yes,Yes,,Yes,No,Yes,Male,18-29,"$25,000 - $49,999",Some college or Associate degree,Mountain,Medium rare
+3234955240,Lottery A,No,No,No,No,Yes,No,Yes,Male,18-29,"$0 - $24,999",Some college or Associate degree,West South Central,Medium rare
+3234857772,Lottery B,Yes,Yes,No,No,Yes,No,Yes,Female,45-60,"$100,000 - $149,999",Graduate degree,East North Central,Medium rare
+3234937720,Lottery B,No,No,No,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Graduate degree,South Atlantic,Medium rare
+3234928339,Lottery A,No,Yes,No,No,No,No,Yes,Male,18-29,,Some college or Associate degree,Middle Atlantic,Medium
+3234838368,Lottery A,Yes,Yes,No,No,Yes,No,Yes,Female,18-29,"$0 - $24,999",Graduate degree,East South Central,Medium rare
+3234835436,,No,No,No,No,No,No,Yes,Female,30-44,"$25,000 - $49,999",Some college or Associate degree,East North Central,Medium Well
+3234787469,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Some college or Associate degree,South Atlantic,Medium rare
+3234886625,Lottery B,No,No,Yes,No,No,No,Yes,Male,18-29,"$50,000 - $99,999",High school degree,Middle Atlantic,Medium rare
+3234880920,Lottery B,No,No,Yes,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Some college or Associate degree,East South Central,Medium
+3234819936,Lottery B,Yes,Yes,Yes,No,Yes,Yes,Yes,Male,30-44,"$50,000 - $99,999",Bachelor degree,South Atlantic,Medium
+3234973379,Lottery A,No,Yes,Yes,No,Yes,Yes,Yes,Male,> 60,"$150,000+",Graduate degree,South Atlantic,Rare
+3234915418,Lottery A,Yes,Yes,No,No,Yes,No,Yes,Male,> 60,"$50,000 - $99,999",Graduate degree,Middle Atlantic,Medium Well
+3234944270,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,18-29,"$25,000 - $49,999",Some college or Associate degree,Mountain,Medium Well
+3234958833,Lottery B,No,Yes,No,No,Yes,Yes,Yes,Male,> 60,"$50,000 - $99,999",Graduate degree,Middle Atlantic,Medium
+3234774687,Lottery B,No,Yes,No,No,Yes,Yes,Yes,Male,18-29,"$25,000 - $49,999",High school degree,South Atlantic,Medium rare
+3234807851,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,30-44,"$25,000 - $49,999",Bachelor degree,South Atlantic,Medium Well
+3234939289,Lottery A,No,Yes,Yes,No,No,No,Yes,Male,18-29,"$50,000 - $99,999",Bachelor degree,West North Central,Medium rare
+3234829440,Lottery B,No,Yes,No,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Some college or Associate degree,Pacific,Medium rare
+3234802714,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Male,> 60,"$50,000 - $99,999",Bachelor degree,Middle Atlantic,Medium rare
+3234794417,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Female,18-29,"$50,000 - $99,999",Some college or Associate degree,West South Central,Medium rare
+3234839073,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Female,> 60,"$50,000 - $99,999",Some college or Associate degree,Pacific,Rare
+3234841276,Lottery B,No,Yes,No,No,Yes,Yes,Yes,Male,> 60,"$50,000 - $99,999",Some college or Associate degree,Middle Atlantic,Medium
+3234803528,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,> 60,,Graduate degree,East North Central,Well
+3234827864,Lottery B,No,Yes,No,No,No,No,Yes,Female,30-44,"$150,000+",Bachelor degree,Middle Atlantic,Medium
+3234853330,Lottery A,No,Yes,No,No,Yes,No,Yes,Female,18-29,"$50,000 - $99,999",Graduate degree,Middle Atlantic,Medium
+3234843170,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,> 60,"$50,000 - $99,999",Graduate degree,East South Central,Medium rare
+3234805307,Lottery A,No,Yes,No,No,Yes,No,Yes,Female,18-29,"$50,000 - $99,999",Bachelor degree,East North Central,Medium Well
+3234800702,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,45-60,"$50,000 - $99,999",Graduate degree,South Atlantic,Medium rare
+3234820326,Lottery B,No,No,No,No,Yes,No,Yes,Male,45-60,"$50,000 - $99,999",Bachelor degree,Mountain,Well
+3234936220,Lottery B,No,No,No,No,Yes,No,Yes,Male,45-60,"$0 - $24,999",Some college or Associate degree,East North Central,Medium rare
+3234813465,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Female,45-60,"$150,000+",Bachelor degree,Middle Atlantic,Medium
+3234770752,Lottery B,,No,No,No,No,No,Yes,Male,45-60,"$50,000 - $99,999",Bachelor degree,South Atlantic,Well
+3234816059,Lottery B,No,Yes,No,Yes,Yes,No,Yes,,,,,,Medium Well
+3234848231,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,45-60,"$50,000 - $99,999",Some college or Associate degree,South Atlantic,Medium rare
+3234788829,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,,,,,,Rare
+3234820490,Lottery A,No,Yes,No,No,Yes,Yes,Yes,Female,45-60,"$50,000 - $99,999",Some college or Associate degree,Middle Atlantic,Medium
+3234774218,Lottery A,No,Yes,No,No,Yes,Yes,Yes,Female,30-44,"$50,000 - $99,999",Some college or Associate degree,Mountain,Medium rare
+3234893756,Lottery A,Yes,Yes,No,No,Yes,Yes,Yes,Male,18-29,,High school degree,Pacific,Medium rare
+3234780665,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Male,30-44,"$100,000 - $149,999",Graduate degree,Middle Atlantic,Medium
+3234937709,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,18-29,"$25,000 - $49,999",Bachelor degree,West North Central,Medium rare
+3234817851,Lottery B,No,No,Yes,No,Yes,No,Yes,Female,30-44,"$0 - $24,999",Some college or Associate degree,South Atlantic,Rare
+3234882939,Lottery A,No,No,No,No,Yes,No,Yes,Male,30-44,"$25,000 - $49,999",Some college or Associate degree,Mountain,Medium
+3234888994,Lottery B,No,Yes,No,No,Yes,No,Yes,Male,18-29,"$0 - $24,999",Bachelor degree,East South Central,Medium rare
+3234764452,Lottery B,Yes,Yes,Yes,Yes,Yes,No,Yes,Male,45-60,"$100,000 - $149,999",Some college or Associate degree,South Atlantic,Medium Well
+3234815624,Lottery B,No,No,No,Yes,Yes,Yes,Yes,Female,> 60,"$50,000 - $99,999",Graduate degree,West South Central,Medium rare
+3234833617,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,18-29,"$25,000 - $49,999",Bachelor degree,South Atlantic,Medium rare
+3234889313,Lottery A,No,No,No,No,Yes,No,Yes,Male,18-29,"$100,000 - $149,999",Some college or Associate degree,South Atlantic,Medium
+3234859600,Lottery A,No,No,No,No,Yes,No,Yes,Female,> 60,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Medium
+3234904710,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Male,45-60,,Some college or Associate degree,West South Central,Medium rare
+3234804474,Lottery B,No,No,No,Yes,Yes,No,Yes,Female,45-60,"$50,000 - $99,999",Bachelor degree,South Atlantic,Rare
+3234908086,Lottery A,No,Yes,No,No,Yes,Yes,Yes,Male,45-60,"$50,000 - $99,999",Some college or Associate degree,Pacific,Medium rare
+3234761879,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,> 60,"$100,000 - $149,999",Bachelor degree,West North Central,Medium Well
+3234868550,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Female,18-29,"$50,000 - $99,999",Some college or Associate degree,East North Central,Medium rare
+3234822589,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,45-60,"$150,000+",Graduate degree,Pacific,Medium
+3234802032,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Female,45-60,"$50,000 - $99,999",Bachelor degree,East North Central,Medium rare
+3234803379,Lottery B,No,Yes,Yes,No,Yes,Yes,Yes,Female,> 60,"$50,000 - $99,999",Some college or Associate degree,South Atlantic,Medium
+3234882580,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,45-60,"$100,000 - $149,999",Bachelor degree,Middle Atlantic,Rare
+3234883481,Lottery A,No,Yes,No,No,Yes,Yes,Yes,Male,18-29,,Some college or Associate degree,Middle Atlantic,Well
+3234783141,Lottery B,No,Yes,Yes,No,Yes,Yes,Yes,Female,30-44,"$50,000 - $99,999",Bachelor degree,East North Central,Medium
+3234785120,Lottery B,Yes,Yes,Yes,No,Yes,No,Yes,Male,18-29,"$25,000 - $49,999",Some college or Associate degree,West North Central,Rare
+3234837889,Lottery A,Yes,Yes,Yes,Yes,Yes,No,Yes,Female,30-44,"$50,000 - $99,999",Some college or Associate degree,Middle Atlantic,Medium Well
+3234778299,Lottery B,No,Yes,No,Yes,Yes,Yes,Yes,Male,45-60,"$150,000+",Bachelor degree,South Atlantic,Medium Well
+3234855107,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,> 60,"$0 - $24,999",Bachelor degree,West South Central,Well
+3234840089,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,> 60,,Some college or Associate degree,South Atlantic,Medium Well
+3234839160,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,30-44,"$100,000 - $149,999",Graduate degree,West North Central,Medium
+3234824435,Lottery A,No,Yes,Yes,No,Yes,Yes,Yes,Male,30-44,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Medium rare
+3234847724,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Male,30-44,"$25,000 - $49,999",Bachelor degree,East North Central,Medium rare
+3234811984,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Female,45-60,,Bachelor degree,Mountain,Medium rare
+3234801820,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Female,> 60,"$50,000 - $99,999",Some college or Associate degree,Pacific,Medium Well
+3234842555,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,30-44,"$50,000 - $99,999",Bachelor degree,South Atlantic,Medium
+3234835019,Lottery B,Yes,Yes,Yes,No,Yes,No,Yes,Female,18-29,"$100,000 - $149,999",Bachelor degree,East North Central,Medium rare
+3234860927,Lottery B,No,Yes,No,No,Yes,No,Yes,,,,,,Well
+3234853003,Lottery B,Yes,Yes,No,No,Yes,No,Yes,Female,18-29,"$100,000 - $149,999",Less than high school degree,Pacific,Well
+3234779450,Lottery B,Yes,Yes,No,No,Yes,No,Yes,Male,18-29,"$0 - $24,999",Some college or Associate degree,Pacific,Medium
+3234836496,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,45-60,"$100,000 - $149,999",Graduate degree,South Atlantic,Rare
+3234776895,Lottery B,No,No,No,No,No,No,Yes,Female,45-60,"$0 - $24,999",Some college or Associate degree,West South Central,Medium rare
+3234915627,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Male,45-60,,Some college or Associate degree,Middle Atlantic,Medium Well
+3234887493,,No,Yes,Yes,No,Yes,No,Yes,Male,> 60,"$25,000 - $49,999",Some college or Associate degree,Mountain,Medium
+3234848751,Lottery B,No,No,No,No,Yes,No,Yes,Female,30-44,"$50,000 - $99,999",Bachelor degree,South Atlantic,Well
+3234849033,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,30-44,"$50,000 - $99,999",Graduate degree,East North Central,Well
+3234907424,Lottery A,Yes,No,No,Yes,No,Yes,Yes,Male,18-29,"$150,000+",,Middle Atlantic,Well
+3234884132,Lottery A,No,Yes,Yes,No,No,No,Yes,Female,> 60,"$25,000 - $49,999",High school degree,Middle Atlantic,Medium
+3234815497,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,,,,,,Medium rare
+3234808432,Lottery B,No,Yes,No,No,Yes,Yes,Yes,Male,30-44,"$50,000 - $99,999",Some college or Associate degree,East North Central,Medium
+3234886754,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,45-60,"$100,000 - $149,999",High school degree,East South Central,Medium rare
+3234840017,Lottery B,No,No,No,No,No,No,Yes,Female,> 60,"$25,000 - $49,999",Some college or Associate degree,Middle Atlantic,Medium rare
+3234839680,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Female,30-44,"$50,000 - $99,999",Some college or Associate degree,West North Central,Rare
+3234789415,Lottery B,No,Yes,Yes,No,,No,Yes,Female,45-60,"$150,000+",High school degree,Middle Atlantic,Well
+3234810549,Lottery A,No,No,No,No,Yes,Yes,Yes,Male,30-44,"$100,000 - $149,999",Some college or Associate degree,Middle Atlantic,Medium rare
+3234846945,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,30-44,"$50,000 - $99,999",Bachelor degree,West North Central,Medium rare
+3234766097,Lottery A,No,No,Yes,No,Yes,No,Yes,Female,30-44,,Some college or Associate degree,East South Central,Well
+3234764807,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,> 60,"$150,000+",Bachelor degree,Middle Atlantic,Medium rare
+3234884675,Lottery B,No,Yes,No,No,Yes,No,Yes,Male,45-60,"$100,000 - $149,999",Bachelor degree,Middle Atlantic,Medium rare
+3234785571,Lottery B,No,No,No,No,Yes,Yes,Yes,Female,45-60,"$50,000 - $99,999",Graduate degree,Pacific,Medium
+3234937003,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,,,,,,Medium Well
+3234871363,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Male,> 60,"$150,000+",Graduate degree,Middle Atlantic,Medium Well
+3234780238,Lottery A,No,Yes,No,No,Yes,Yes,Yes,Female,30-44,,Graduate degree,New England,Medium rare
+3234793005,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Female,45-60,"$25,000 - $49,999",Some college or Associate degree,Mountain,Medium Well
+3234896600,Lottery B,Yes,Yes,Yes,No,Yes,Yes,Yes,Male,30-44,"$50,000 - $99,999",Bachelor degree,East North Central,Medium Well
+3234814864,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Female,> 60,,High school degree,East North Central,Medium rare
+3234882106,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,> 60,"$50,000 - $99,999",Some college or Associate degree,Mountain,Medium Well
+3234787811,Lottery A,No,Yes,Yes,No,Yes,No,Yes,,,,,,Medium rare
+3234810955,Lottery A,No,Yes,Yes,No,Yes,No,Yes,,,,,,Medium
+3234887530,Lottery A,No,No,Yes,No,Yes,No,Yes,Male,45-60,"$50,000 - $99,999",Some college or Associate degree,Pacific,Well
+3234796052,Lottery B,No,No,No,No,Yes,No,Yes,Female,30-44,,Graduate degree,Middle Atlantic,Well
+3234801517,Lottery B,Yes,Yes,No,No,Yes,No,Yes,Female,30-44,"$100,000 - $149,999",Graduate degree,Middle Atlantic,Medium Well
+3234874404,Lottery A,Yes,Yes,Yes,No,Yes,Yes,Yes,Male,30-44,"$150,000+",Graduate degree,Middle Atlantic,Medium
+3234851430,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Female,18-29,"$150,000+",Bachelor degree,New England,Medium rare
+3234820975,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Female,45-60,"$150,000+",Bachelor degree,Pacific,Medium rare
+3234890248,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,> 60,"$25,000 - $49,999",Graduate degree,West North Central,Medium rare
+3234852078,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,45-60,"$100,000 - $149,999",Bachelor degree,East North Central,Medium Well
+3234831237,Lottery A,No,Yes,No,No,Yes,No,Yes,Female,30-44,"$0 - $24,999",Some college or Associate degree,Pacific,Medium rare
+3234835855,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,45-60,"$50,000 - $99,999",Bachelor degree,West North Central,Medium Well
+3234935254,Lottery B,No,Yes,No,No,Yes,No,Yes,Male,45-60,"$25,000 - $49,999",Bachelor degree,West South Central,Medium
+3234790735,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,45-60,"$150,000+",Graduate degree,East North Central,Medium
+3234809084,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,45-60,"$100,000 - $149,999",Some college or Associate degree,Mountain,Medium
+3234784673,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,18-29,"$50,000 - $99,999",Bachelor degree,New England,Rare
+3234840455,Lottery A,No,No,No,No,Yes,No,Yes,Female,45-60,"$150,000+",Bachelor degree,South Atlantic,Well
+3234908311,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Male,> 60,"$50,000 - $99,999",Bachelor degree,East North Central,Medium rare
+3234839930,,No,No,No,No,Yes,No,Yes,Male,45-60,,Some college or Associate degree,West North Central,Medium rare
+3234821435,Lottery A,Yes,No,No,Yes,Yes,Yes,Yes,Female,45-60,"$100,000 - $149,999",Bachelor degree,East North Central,Medium rare
+3234822951,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Female,30-44,"$150,000+",Graduate degree,West North Central,Medium
+3234845017,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,> 60,"$50,000 - $99,999",Graduate degree,South Atlantic,Medium
+3234817478,Lottery B,No,Yes,Yes,No,Yes,No,Yes,,,,,,Medium Well
+3234782029,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,18-29,"$0 - $24,999",Bachelor degree,Mountain,Medium
+3234846164,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,> 60,"$150,000+",Bachelor degree,West North Central,Medium rare
+3234870917,Lottery A,No,No,No,No,Yes,No,Yes,,,,,,Medium rare
+3234846005,Lottery A,No,Yes,No,No,Yes,No,Yes,Female,45-60,"$150,000+",Bachelor degree,West South Central,Medium
+3234761827,Lottery B,No,No,No,No,Yes,No,Yes,Female,18-29,"$25,000 - $49,999",High school degree,South Atlantic,Medium rare
+3234860125,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,> 60,,Graduate degree,East North Central,Medium
+3234836798,Lottery A,No,Yes,No,No,Yes,No,Yes,Female,30-44,"$50,000 - $99,999",Bachelor degree,New England,Medium Well
+3234824072,Lottery A,No,Yes,Yes,No,Yes,Yes,Yes,Female,> 60,"$25,000 - $49,999",Some college or Associate degree,East North Central,Medium rare
+3234918764,Lottery A,No,No,Yes,No,Yes,No,Yes,Male,45-60,"$0 - $24,999",Some college or Associate degree,New England,Medium rare
+3234897030,Lottery A,No,Yes,No,No,Yes,No,Yes,Female,> 60,"$100,000 - $149,999",Bachelor degree,New England,Medium rare
+3234911072,Lottery A,No,Yes,No,No,No,No,Yes,Male,45-60,,High school degree,West South Central,Medium rare
+3234918715,Lottery B,No,No,No,No,Yes,No,Yes,Male,45-60,"$50,000 - $99,999",Bachelor degree,South Atlantic,Medium Well
+3234820540,Lottery B,No,No,No,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Graduate degree,Mountain,Medium rare
+3234798094,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,45-60,"$50,000 - $99,999",Graduate degree,Pacific,Medium
+3234847835,Lottery A,No,Yes,Yes,No,Yes,Yes,Yes,Male,30-44,"$100,000 - $149,999",Bachelor degree,Middle Atlantic,Medium
+3234801446,Lottery A,Yes,Yes,Yes,No,Yes,Yes,Yes,Male,45-60,"$50,000 - $99,999",Bachelor degree,Mountain,Medium
+3234763723,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,30-44,"$100,000 - $149,999",Bachelor degree,South Atlantic,Medium
+3234772936,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,> 60,"$50,000 - $99,999",Graduate degree,Pacific,Medium
+3234931630,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,> 60,"$25,000 - $49,999",Graduate degree,East North Central,Medium
+3234853178,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Male,> 60,,Bachelor degree,West North Central,Medium rare
+3234859297,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,45-60,"$50,000 - $99,999",Some college or Associate degree,Pacific,Medium Well
+3234773000,Lottery A,No,Yes,Yes,No,Yes,Yes,Yes,,,,,,Medium Well
+3234819931,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,> 60,"$150,000+",Graduate degree,New England,Medium rare
+3234893368,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,18-29,"$25,000 - $49,999",Graduate degree,West North Central,Medium
+3234921417,Lottery B,Yes,Yes,Yes,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Some college or Associate degree,West South Central,Medium
+3234839467,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,> 60,"$150,000+",Bachelor degree,South Atlantic,Medium
+3234840809,Lottery A,No,Yes,No,No,Yes,No,Yes,Female,45-60,,Graduate degree,Pacific,Medium rare
+3234760413,Lottery B,Yes,Yes,Yes,No,Yes,No,Yes,Male,18-29,"$0 - $24,999",,Mountain,Medium
+3234825833,Lottery B,No,No,No,No,Yes,No,Yes,Female,45-60,"$150,000+",Bachelor degree,New England,Medium Well
+3234782863,Lottery A,Yes,No,No,No,Yes,No,Yes,Female,45-60,"$0 - $24,999",Bachelor degree,South Atlantic,Medium rare
+3234930461,Lottery A,No,No,No,No,Yes,No,Yes,Male,18-29,"$0 - $24,999",Graduate degree,South Atlantic,Medium
+3234815841,Lottery B,No,No,No,No,Yes,No,Yes,Female,> 60,"$50,000 - $99,999",Graduate degree,Pacific,Medium rare
+3234803688,Lottery B,No,Yes,No,No,Yes,Yes,Yes,Female,30-44,"$50,000 - $99,999",Graduate degree,East North Central,Medium Well
+3234769753,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Female,30-44,"$50,000 - $99,999",Some college or Associate degree,New England,Medium
+3234785579,Lottery A,No,No,No,No,No,No,Yes,Female,18-29,"$25,000 - $49,999",Some college or Associate degree,Middle Atlantic,Medium rare
+3234894723,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Male,> 60,,Bachelor degree,Middle Atlantic,Rare
+3234858171,Lottery B,No,No,Yes,No,Yes,No,Yes,Male,> 60,"$0 - $24,999",Bachelor degree,South Atlantic,Medium
+3234844257,Lottery B,No,Yes,Yes,No,No,No,Yes,Female,45-60,"$100,000 - $149,999",Bachelor degree,Mountain,Well
+3234872996,Lottery B,No,Yes,No,No,Yes,No,Yes,Male,45-60,"$50,000 - $99,999",Graduate degree,East North Central,Medium rare
+3234799316,Lottery A,No,Yes,No,No,Yes,Yes,Yes,Female,30-44,"$150,000+",Bachelor degree,Mountain,Medium
+3234832934,Lottery B,No,Yes,Yes,Yes,Yes,No,Yes,Male,30-44,"$100,000 - $149,999",Bachelor degree,West South Central,Medium rare
+3234832916,Lottery A,Yes,Yes,Yes,No,Yes,Yes,Yes,Male,18-29,"$0 - $24,999",Some college or Associate degree,Mountain,Medium
+3234868937,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Male,45-60,"$50,000 - $99,999",Bachelor degree,Pacific,Well
+3234826323,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Male,30-44,"$25,000 - $49,999",Graduate degree,West North Central,Medium rare
+3234834302,Lottery B,No,Yes,No,Yes,No,No,Yes,Female,45-60,"$25,000 - $49,999",Some college or Associate degree,East South Central,Medium
+3234847389,Lottery A,No,Yes,No,No,Yes,Yes,Yes,Male,18-29,"$50,000 - $99,999",Bachelor degree,Middle Atlantic,Medium
+3234880646,Lottery B,No,Yes,Yes,Yes,Yes,Yes,Yes,Male,30-44,"$100,000 - $149,999",Bachelor degree,Middle Atlantic,Medium
+3234881800,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,30-44,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Medium Well
+3234833027,Lottery A,No,Yes,No,No,Yes,No,Yes,Female,18-29,"$50,000 - $99,999",Bachelor degree,West North Central,Medium
+3234814352,Lottery A,No,Yes,No,No,Yes,No,Yes,Female,45-60,"$150,000+",Some college or Associate degree,Middle Atlantic,Medium Well
+3234787566,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,30-44,"$50,000 - $99,999",Bachelor degree,South Atlantic,Medium rare
+3234893232,Lottery B,No,Yes,No,No,Yes,Yes,Yes,Female,> 60,"$50,000 - $99,999",Some college or Associate degree,East South Central,Medium rare
+3234784700,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,> 60,"$50,000 - $99,999",Graduate degree,East North Central,Medium rare
+3234794766,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,> 60,"$50,000 - $99,999",Graduate degree,East North Central,Medium
+3234929351,Lottery B,Yes,Yes,No,No,Yes,No,Yes,Male,45-60,"$50,000 - $99,999",Graduate degree,East South Central,Medium
+3234812630,Lottery A,No,Yes,No,Yes,Yes,No,Yes,Female,30-44,,Some college or Associate degree,Mountain,Well
+3234843837,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,45-60,"$50,000 - $99,999",Some college or Associate degree,Middle Atlantic,Medium
+3234776702,Lottery B,No,No,No,No,No,No,Yes,Female,> 60,"$50,000 - $99,999",Graduate degree,Mountain,Medium rare
+3234803960,Lottery B,No,No,No,No,Yes,No,Yes,Female,30-44,"$50,000 - $99,999",Bachelor degree,West South Central,Medium
+3234858907,Lottery A,No,No,Yes,No,Yes,No,Yes,Female,45-60,,Some college or Associate degree,East South Central,Well
+3234853658,Lottery B,No,Yes,No,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Graduate degree,South Atlantic,Medium rare
+3234815283,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Male,45-60,"$100,000 - $149,999",Some college or Associate degree,Middle Atlantic,Medium Well
+3234862159,Lottery B,No,Yes,No,No,Yes,No,Yes,,,,,,Medium rare
+3234810697,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Male,45-60,"$100,000 - $149,999",Bachelor degree,East North Central,Medium
+3234818717,Lottery B,Yes,Yes,Yes,No,Yes,No,Yes,Female,45-60,"$50,000 - $99,999",Some college or Associate degree,Pacific,Medium rare
+3234898162,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Male,45-60,,Graduate degree,Pacific,Medium rare
+3234888305,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,> 60,"$50,000 - $99,999",Graduate degree,West North Central,Medium
+3234898344,Lottery B,No,Yes,No,No,Yes,No,Yes,Male,> 60,,Graduate degree,New England,Rare
+3234817013,Lottery A,No,Yes,No,No,Yes,No,Yes,Female,30-44,"$150,000+",Bachelor degree,East North Central,Medium rare
+3234814771,Lottery B,Yes,Yes,Yes,No,Yes,No,Yes,Female,> 60,"$25,000 - $49,999",Graduate degree,Pacific,Medium
+3234855514,Lottery A,No,Yes,Yes,No,Yes,Yes,Yes,Female,30-44,"$50,000 - $99,999",Graduate degree,South Atlantic,Medium Well
+3234770901,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Female,45-60,"$150,000+",Graduate degree,Mountain,Medium
+3234767012,Lottery B,No,Yes,No,No,No,Yes,Yes,Male,30-44,"$0 - $24,999",Some college or Associate degree,East North Central,Well
+3234822135,Lottery B,No,Yes,No,No,Yes,No,Yes,,,,,,Medium
+3234793032,Lottery B,Yes,Yes,No,No,No,No,Yes,Male,18-29,"$0 - $24,999",Bachelor degree,East North Central,Medium Well
+3234815061,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,> 60,"$100,000 - $149,999",Graduate degree,Middle Atlantic,Medium rare
+3234765812,Lottery A,No,Yes,No,No,Yes,No,Yes,Male,> 60,"$150,000+",Graduate degree,Pacific,Medium Well
+3234804414,Lottery B,No,Yes,No,No,Yes,Yes,Yes,Female,30-44,"$25,000 - $49,999",Some college or Associate degree,South Atlantic,Medium Well
+3234862267,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,18-29,,Graduate degree,South Atlantic,Medium rare
+3234870688,Lottery B,No,No,No,No,Yes,Yes,Yes,Male,18-29,"$0 - $24,999",Bachelor degree,East North Central,Medium
+3234843826,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,45-60,"$50,000 - $99,999",Graduate degree,West North Central,Medium rare
+3234838520,Lottery B,Yes,Yes,Yes,No,No,No,Yes,Male,30-44,"$25,000 - $49,999",Some college or Associate degree,Pacific,Medium rare
+3234910999,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Male,> 60,"$50,000 - $99,999",Bachelor degree,Pacific,Medium
+3234834323,Lottery B,No,Yes,No,No,Yes,Yes,Yes,Female,45-60,,Bachelor degree,Middle Atlantic,Rare
+3234856888,Lottery B,No,No,No,No,Yes,No,Yes,Female,18-29,"$100,000 - $149,999",Some college or Associate degree,East South Central,Medium Well
+3234879461,Lottery B,No,Yes,No,No,Yes,No,Yes,,,,,,Medium
+3234818156,Lottery B,No,No,Yes,No,Yes,No,Yes,Male,45-60,,Some college or Associate degree,East North Central,Medium
+3234815142,Lottery A,No,Yes,No,No,Yes,No,Yes,Female,45-60,"$50,000 - $99,999",Some college or Associate degree,East North Central,Well
+3234823512,Lottery B,Yes,Yes,No,No,Yes,No,Yes,Female,30-44,,Some college or Associate degree,West North Central,Medium rare
+3234813345,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,> 60,"$50,000 - $99,999",Graduate degree,New England,Medium rare
+3234807193,Lottery A,No,Yes,Yes,No,Yes,Yes,Yes,Female,45-60,,Graduate degree,East North Central,Medium rare
+3234821131,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Female,45-60,"$50,000 - $99,999",Bachelor degree,Mountain,Medium Well
+3234772571,Lottery B,Yes,Yes,Yes,No,Yes,No,Yes,Male,45-60,,High school degree,Mountain,Medium rare
+3234889471,Lottery A,No,Yes,No,Yes,Yes,No,Yes,Male,30-44,,Some college or Associate degree,West South Central,Medium rare
+3234871524,Lottery A,Yes,Yes,Yes,No,Yes,No,Yes,Female,18-29,"$25,000 - $49,999",High school degree,West North Central,Medium
+3234924090,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,45-60,"$50,000 - $99,999",Bachelor degree,Pacific,Medium
+3234794312,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Male,30-44,"$50,000 - $99,999",Some college or Associate degree,Middle Atlantic,Well
+3234840931,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Male,45-60,"$100,000 - $149,999",Graduate degree,Middle Atlantic,Rare
+3234896091,Lottery B,No,No,Yes,No,Yes,No,Yes,Female,> 60,,Some college or Associate degree,Pacific,Medium rare
+3234786043,Lottery A,No,Yes,Yes,No,Yes,No,Yes,Female,45-60,"$100,000 - $149,999",Some college or Associate degree,East North Central,Medium rare
+3234771955,Lottery A,No,No,No,No,Yes,No,Yes,Female,> 60,"$50,000 - $99,999",Some college or Associate degree,New England,Medium
+3234775816,Lottery A,Yes,No,No,No,No,No,Yes,Female,45-60,"$25,000 - $49,999",Some college or Associate degree,Mountain,Medium Well
+3234948197,Lottery A,No,No,Yes,No,Yes,No,Yes,Male,18-29,"$100,000 - $149,999",Graduate degree,Middle Atlantic,Medium rare
+3234803833,Lottery B,No,Yes,Yes,No,Yes,No,Yes,Female,45-60,"$100,000 - $149,999",Graduate degree,South Atlantic,Medium rare
+3234791193,Lottery B,No,Yes,No,No,Yes,No,Yes,Male,45-60,"$100,000 - $149,999",Bachelor degree,Pacific,Medium rare
+3234818242,Lottery A,Yes,No,No,No,Yes,No,Yes,Male,30-44,"$100,000 - $149,999",Bachelor degree,Pacific,Medium rare
+3234870022,Lottery B,No,No,Yes,No,Yes,Yes,Yes,Female,18-29,"$25,000 - $49,999",Some college or Associate degree,New England,Well
+3234844263,Lottery B,No,Yes,No,No,Yes,No,Yes,Female,30-44,"$50,000 - $99,999",Bachelor degree,West South Central,Medium rare
+3234811715,Lottery B,No,No,No,No,No,No,Yes,Female,> 60,,Some college or Associate degree,South Atlantic,Medium rare
+3234893663,Lottery B,No,Yes,No,No,Yes,Yes,Yes,Male,> 60,"$150,000+",Bachelor degree,New England,Medium Well
