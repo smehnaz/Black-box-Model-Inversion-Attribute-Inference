@@ -9,6 +9,7 @@ from dataset import Dataset
 from attack import Attack
 from utils.utils import get_all_scores
 
+# this is the importance order required for partial knowledge LOMIA
 importance_order_dict = {
     'Adult': ['work', 'sex', 'race', 'fnlwgt', 'occupation', 'education', 'hoursperweek', 'capitalgain', 'capitalloss'],
     'GSS': ['divorce', 'race', 'relig', 'sex', 'educ', 'age', 'year', 'childs', 'pornlaw']
@@ -18,6 +19,7 @@ importance_order_dict = {
 class Helper:
     params: Params = None
 
+    # we set dataset_sent_to_attacker's ground truth to zero to make sure attacker doesn't know the actual sensitive values
     def __init__(self, params):
         self.params = Params(**params)
         self.dataset = Dataset(self.params)
@@ -26,7 +28,7 @@ class Helper:
         dataset_sent_to_attacker.ground_truths={}
         self.attack = Attack(params=self.params, dataset=dataset_sent_to_attacker, target_model=self.target_model)
 
-
+    # launches attack based on the category
     def test_attack(self):
         if self.params.attack_category is None or self.params.attack_category == 'disparate_vulnerability' or self.params.attack_category == 'distributional_privacy_leakage':
             self.attack.run_attack()
@@ -49,9 +51,14 @@ class Helper:
         elif self.params.attack_category == 'prepare_LOMIA_attack_dataset':
             if self.attack.name != 'LOMIA':
                 raise ValueError('Please change attack type to LOMIA.')
+            # only in this case we send the dataset with the ground truth to the attacker
+            # the purpose is only to count the number of correct instances as in Table 3
             self.attack = Attack(params=self.params, dataset=self.dataset, target_model=self.target_model)
             self.attack.prepare_LOMIA_attack_dataset()
 
+    # calculates the score as presented in the paper and displays in a tabular format
+    # if the show_confusion_matrix_visually is set to True, it also plots the confusion matrix
+    # also allows individual case reports for CSMIA if the flag is set to True
     def calc_score(self):
         for attribute in self.dataset.sensitive_attributes:
             actual = self.dataset.ground_truths[attribute]

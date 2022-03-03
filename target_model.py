@@ -2,6 +2,7 @@ from bigml.model import Model
 from bigml.api import BigML
 from bigml.deepnet import Deepnet
 
+# the dictionaries store the resource ids of the target models
 target_model_dict_dt = {
     'Adult': 'model/621ff90b8f679a67b30004fe',
     'fivethirtyeight': 'model/621ffc908f679a67b70004a8',

@@ -10,6 +10,8 @@ from dataset import Dataset
 from target_model import TargetModel
 # from utils.utils import get_resource_id
 
+# The list of resource ids for ensemble attacks when only one sensitive attribute is being inferred
+# Requires 3 level of indexing: [Dataset_name, Target_model_type, Sensitive_attribute_name]
 attack_models_dict = {
     'Adult': {
         'DT': {'marital': 'ensemble/621ffe4eaba2df5ee800053e'},
@@ -21,11 +23,13 @@ attack_models_dict = {
         'DNN': {'xmovie': 'ensemble/621fffc68f679a67ab000573'}
     },
     'fivethirtyeight': {
-        'DT': {'alcohol': 'ensemble/622000b28f679a67b900049b', 'age': 'ensemble/614a69ce99dfe7073f007d45'},
+        'DT': {'alcohol': 'ensemble/622000b28f679a67b900049b', 'age': 'ensemble/6220144baba2df5ee10004eb'},
         'DNN': {'alcohol': 'ensemble/622001338be2aa070600042f'}
     }
 }
 
+# The list of resource ids for ensemble attacks when two sensitive attribute is being inferred
+# We only did it for 538 DT model hence only one entry
 attack_models_for_multiple_missing_attribute_dict = {
     'fivethirtyeight': {
         'DT': {'alcohol': 'ensemble/622002ddaba2df5eef000517', 'age': 'ensemble/622002258be2aa071000048a'}
@@ -50,12 +54,14 @@ class Attack:
             else:
                 self.attack_models_dict = attack_models_dict
 
+    # runs the specified attack
     def run_attack(self):
         if self.name == 'CSMIA':
             self.run_CSMIA()
         elif self.name == 'LOMIA':
             self.run_LOMIA()
 
+    # this only prepares the LOMIA attack dataset
     def prepare_LOMIA_attack_dataset(self):
         for attribute in self.dataset.sensitive_attributes:
             df = self.dataset.data.copy()
@@ -133,6 +139,8 @@ class Attack:
             print(f'Number of correct instances: {correct_count}')
             
 
+    # this loads the ensemble attack model using the resource id found from the dictionary
+    # and then queries the ensemble for prediction of the sensitive attribute
     def run_LOMIA(self):
         self.predicted_vals_by_attribute = {}
         self.predicted_case_by_attribute = {}
@@ -150,6 +158,8 @@ class Attack:
 
             self.predicted_vals_by_attribute[attribute] = np.array(output)
 
+
+    # this does both CSMIA and partial knowledge CSMIA
     def run_CSMIA(self):
         self.predicted_vals_by_attribute = {}
         self.predicted_case_by_attribute = {}
@@ -186,7 +196,8 @@ class Attack:
                         confidence_sum_yval[yval] = 0.
 
                     input_data = X_query.iloc[i].copy()
-                
+
+                    # if there are missing nsa, then it is partial knowledge CSMIA
                     if len(self.dataset.missing_nonsensitive_attributes) != 0:
                         for nsa in self.dataset.missing_nonsensitive_attributes:
                             nsa_vals = self.dataset.missing_nsa_vals[nsa]
@@ -201,6 +212,7 @@ class Attack:
                                     confidence_sum_yval[predicted_yval] += prediction['probability']
                                 else:
                                     confidence_sum_yval[predicted_yval] += prediction['confidence']
+                    # normal CSMIA
                     else:
                         prediction=self.target_model.model.predict(input_data, full=True) 
                         predicted_yval = prediction['prediction']
@@ -263,7 +275,7 @@ class Attack:
 
         
 
-
+    # this was the old code used to run CSMIA. same functionality. but it cannot do partial knowledge
     def run_CSMIA_legacy(self):
         self.predicted_vals_by_attribute = {}
         self.predicted_case_by_attribute = {}

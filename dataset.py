@@ -7,6 +7,13 @@ y_labels_dict = {
     'fivethirtyeight' : {'alcohol': ['Yes', 'No'], 'age': ['18-29', '30-44', '45-60', '> 60']}
 }
 
+# the dataset class
+# name contains the name
+# sensitie_vals contain all possible values for all sensitive attributes
+# sensitive_attributes store all the sensitive attribute names
+# ground truths store all the actual sensitive values for each instance before dropping the column
+# missing_nonsensitive_attributes and missing_nsa_vals follow the same definition as their sensitive counterpart
+
 class Dataset:
     def __init__(self, params):
         self.name = params.dataset
