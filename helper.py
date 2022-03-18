@@ -16,6 +16,12 @@ importance_order_dict = {
 
 }
 
+y_values_dict = {
+    'Adult': {'income': ['<=50K', '>50K']},
+    'GSS': {'hapmar': ['nottoohappy', 'prettyhappy', 'veryhappy']},
+    'fivethirtyeight' : {'steak_type': ['Medium', 'Medium Well', 'Medium rare', 'Rare', 'Well']}
+}
+
 class Helper:
     params: Params = None
 
@@ -28,9 +34,46 @@ class Helper:
         dataset_sent_to_attacker.ground_truths={}
         self.attack = Attack(params=self.params, dataset=dataset_sent_to_attacker, target_model=self.target_model)
 
+    # get prior of the dataset
+    def get_prior(self):
+        self.prior = {}
+        for attr in self.dataset.sensitive_attributes:
+            sensitive_val = self.dataset.sensitive_vals[attr]
+            count=[(self.dataset.ground_truths[attr]==sensitive_val[i]).sum() for i in range(len(sensitive_val))]
+            count[:]=count[:]/sum(count)
+            prior=count
+            self.prior[attr] = prior
+        return
+
+    # get confusion matrix of the target model
+    def get_confusion_matrix_of_target_model(self):
+        df = self.dataset.data.copy()
+        model = self.target_model.model
+        self.cm = {}
+        for attr in self.dataset.sensitive_attributes:
+            df[attr] = pd.Series(self.dataset.ground_truths[attr], index=df.index)
+            y_attr = self.dataset.y_attr
+            X_query=df.copy().drop([y_attr], axis=1)
+            y_actual=df[[y_attr]].to_numpy()
+            predictions=[]
+            for i in range(X_query.shape[0]):
+                #buil_query=X_query.iloc[i]
+                input_data = X_query.iloc[i]
+                prediction=model.predict(input_data, full=False)
+                predictions.append(prediction)
+            predictions=np.array(predictions)
+            self.cm[attr] = confusion_matrix(y_actual, predictions, labels=y_values_dict[self.dataset.name][y_attr])
+        return
+
+
     # launches attack based on the category
     def test_attack(self):
-        if self.params.attack_category is None or self.params.attack_category == 'disparate_vulnerability' or self.params.attack_category == 'distributional_privacy_leakage':
+        if self.attack.name == 'FJRMIA':
+            self.get_prior()
+            self.get_confusion_matrix_of_target_model()
+            self.attack.run_FJRMIA(priors=self.prior, cms=self.cm)
+            self.calc_score()
+        elif self.params.attack_category is None or self.params.attack_category == 'disparate_vulnerability' or self.params.attack_category == 'distributional_privacy_leakage':
             self.attack.run_attack()
             self.calc_score()
         elif self.params.attack_category == 'part_know_att_incr_importance':

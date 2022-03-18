@@ -37,6 +37,13 @@ attack_models_for_multiple_missing_attribute_dict = {
 }
 
 
+y_values_dict = {
+    'Adult': {'income': ['<=50K', '>50K']},
+    'GSS': {'hapmar': ['nottoohappy', 'prettyhappy', 'veryhappy']},
+    'fivethirtyeight' : {'steak_type': ['Medium', 'Medium Well', 'Medium rare', 'Rare', 'Well']}
+}
+
+
 class Attack:
     name: str = None
     dataset: Dataset = None
@@ -272,6 +279,80 @@ class Attack:
 
             self.predicted_vals_by_attribute[attribute] = np.array(predicted_sen_val)
             self.predicted_case_by_attribute[attribute] = np.array(case_of_pred)
+
+    def run_FJRMIA(self, priors, cms):
+        self.predicted_vals_by_attribute = {}
+        self.predicted_case_by_attribute = {}
+        for attribute in self.dataset.sensitive_attributes:
+            prior = priors[attribute]
+            cm = cms[attribute]
+            df = self.dataset.data.copy()
+            # adv_query = self.dataset.data.copy().drop([self.dataset.y_attr], axis=1)
+            # actual_y = self.dataset.data[[self.dataset.y_attr]]
+            # training_target=adv_query
+            # training_target[y_attr]=y_train
+            sensitive_val = self.dataset.sensitive_vals[attribute]
+            # adv_query.reset_index(inplace = True, drop = True)
+
+            val_option=len(sensitive_val)
+            size=df.shape[0]
+            #adv_query=adv_query.append(([adv_query]*(val_option-1)),ignore_index=True)
+            #n = len(adv_query)/val_option
+            n = len(df)
+
+            adv_queries_dict_by_sensitive_val = {}
+            for val in sensitive_val:
+                adv_query = df.copy()
+                adv_query[attribute] = np.concatenate([np.repeat(val, n)])
+                adv_queries_dict_by_sensitive_val[val] = adv_query
+            list_of_sensitive_vals = list(adv_queries_dict_by_sensitive_val.keys())
+
+            for sensitive_val in adv_queries_dict_by_sensitive_val.keys():
+                adv_query = adv_queries_dict_by_sensitive_val[sensitive_val]
+                y_attr = self.dataset.y_attr
+                X_query=adv_query.copy().drop([y_attr], axis=1)
+                y_query=adv_query[[y_attr]]
+                y_list=y_query[y_attr].unique()
+                predictions=[]
+                confidences=[]
+                print(f'Querying with sensitive values set to {sensitive_val}')
+                for i in tqdm(range(X_query.shape[0])):
+                    #buil_query=X_query.iloc[i]
+                    input_data = X_query.iloc[i]
+                    # print(input_data)
+                    prediction=self.target_model.model.predict(input_data, full=True)
+                    #print(input_data, prediction)
+                    #prediction=model.predict(input_data, full=False)
+                    if self.target_model.model_type == 'DNN':
+                        confidences.append(prediction['probability'])
+                    else:
+                        confidences.append(prediction['confidence'])
+                    predictions.append(prediction['prediction'])
+                #arr=prediction
+                df[f'prediction_{sensitive_val}'] = pd.Series(predictions, index = adv_query.index[:len(predictions)])
+                df[f'confidence_{sensitive_val}'.format(val[0])] = pd.Series(confidences, index = adv_query.index[:len(confidences)])
+
+                # print(predictions)
+                # print(confidences)
+
+            y_val=y_values_dict[self.dataset.name][y_attr]
+            predictions=[]
+            y_list=self.dataset.data[y_attr].to_numpy()
+            y_count=len(y_val)
+            c=[[0]*y_count for i in range(y_count)]
+            sensitive_val = self.dataset.sensitive_vals[attribute]
+            for i in range(y_count):
+                c[i][:]=cm[i][:]/sum(cm[i][:])
+            for i in range(df.shape[0]):
+                y=y_val.index(y_list[i])
+                scores=[]
+                for j in range(len(sensitive_val)):
+                    yp=y_val.index(df.iloc[i]['prediction_{}'.format(sensitive_val[j])])
+                    scores.append(c[y][yp]*prior[j])
+                scores=np.array(scores)
+                predictions.append(sensitive_val[np.argmax(scores)])
+
+            self.predicted_vals_by_attribute[attribute] = np.array(predictions)
 
         
 
