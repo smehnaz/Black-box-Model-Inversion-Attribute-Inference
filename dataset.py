@@ -48,7 +48,8 @@ class Dataset:
         self.y_labels = y_labels_dict[self.name]
         self.ground_truths = {}
         for attr in params.sensitive_attributes:
-            self.sensitive_vals[attr] = df[attr].unique()
+            # self.sensitive_vals[attr] = df[attr].unique()
+            self.sensitive_vals[attr] = self.y_labels[attr]
             self.ground_truths[attr] = df[attr].to_numpy()
         for attr in self.missing_nonsensitive_attributes:
             self.missing_nsa_vals[attr] = df[attr].unique()

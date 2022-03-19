@@ -38,7 +38,7 @@ class Helper:
     def get_prior(self):
         self.prior = {}
         for attr in self.dataset.sensitive_attributes:
-            sensitive_val = self.dataset.sensitive_vals[attr]
+            sensitive_val = self.dataset.y_labels[attr]
             count=[(self.dataset.ground_truths[attr]==sensitive_val[i]).sum() for i in range(len(sensitive_val))]
             count[:]=count[:]/sum(count)
             prior=count
@@ -52,6 +52,8 @@ class Helper:
         self.cm = {}
         for attr in self.dataset.sensitive_attributes:
             df[attr] = pd.Series(self.dataset.ground_truths[attr], index=df.index)
+        
+        for attr in self.dataset.sensitive_attributes:
             y_attr = self.dataset.y_attr
             X_query=df.copy().drop([y_attr], axis=1)
             y_actual=df[[y_attr]].to_numpy()
@@ -70,7 +72,9 @@ class Helper:
     def test_attack(self):
         if self.attack.name == 'FJRMIA':
             self.get_prior()
+            print(self.prior)
             self.get_confusion_matrix_of_target_model()
+            print(self.cm)
             self.attack.run_FJRMIA(priors=self.prior, cms=self.cm)
             self.calc_score()
         elif self.params.attack_category is None or self.params.attack_category == 'disparate_vulnerability' or self.params.attack_category == 'distributional_privacy_leakage':

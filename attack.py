@@ -336,22 +336,28 @@ class Attack:
                 # print(confidences)
 
             y_val=y_values_dict[self.dataset.name][y_attr]
+            print(y_val)
             predictions=[]
             y_list=self.dataset.data[y_attr].to_numpy()
             y_count=len(y_val)
             c=[[0]*y_count for i in range(y_count)]
             sensitive_val = self.dataset.sensitive_vals[attribute]
+            print(sensitive_val)
             for i in range(y_count):
                 c[i][:]=cm[i][:]/sum(cm[i][:])
+            correct_counts = [0 for _ in sensitive_val]
             for i in range(df.shape[0]):
                 y=y_val.index(y_list[i])
                 scores=[]
                 for j in range(len(sensitive_val)):
                     yp=y_val.index(df.iloc[i]['prediction_{}'.format(sensitive_val[j])])
+                    if y==yp:
+                        correct_counts[j] += 1
                     scores.append(c[y][yp]*prior[j])
                 scores=np.array(scores)
                 predictions.append(sensitive_val[np.argmax(scores)])
 
+            print(correct_counts)
             self.predicted_vals_by_attribute[attribute] = np.array(predictions)
 
         
