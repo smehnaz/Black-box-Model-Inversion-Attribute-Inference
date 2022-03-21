@@ -70,7 +70,7 @@ class Helper:
 
     # launches attack based on the category
     def test_attack(self):
-        if self.attack.name == 'FJRMIA':
+        if self.attack.name == 'FJRMIA' and len(self.params.sensitive_attributes) == 1 and len(self.dataset.sensitive_vals[self.params.sensitive_attributes[0]])==2:
             self.get_prior()
             print(self.prior)
             self.get_confusion_matrix_of_target_model()
@@ -102,6 +102,8 @@ class Helper:
             # the purpose is only to count the number of correct instances as in Table 3
             self.attack = Attack(params=self.params, dataset=self.dataset, target_model=self.target_model)
             self.attack.prepare_LOMIA_attack_dataset()
+        else:
+            raise ValueError('Attack failed. Please set an attack configuration that is supported. Please follow the readme instructions')
 
     # calculates the score as presented in the paper and displays in a tabular format
     # if the show_confusion_matrix_visually is set to True, it also plots the confusion matrix

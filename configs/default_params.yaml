@@ -1,6 +1,6 @@
 # Name of the dataset to be experimented on, the target model is trained on this dataset
 # Possible values: Adult, GSS, fivethirtyeight
-dataset: fivethirtyeight
+dataset: GSS
 
 # Name of the attack being experimented
 # Possible values: CSMIA, LOMIA, FJRMIA
@@ -13,7 +13,7 @@ target_model_type: DT
 # The sensitive attribute field that is being inferred
 # Possible values: If dataset is Adult then ['marital'], If dataset is GSS then ['xmovie'], If dataset is fivethirtyeight then ['alcohol'] or ['age'] or ['alcohol', 'age']
 # Please do not use any field that does not exist in the fields of the dataset
-sensitive_attributes: ['age', 'alcohol']
+sensitive_attributes: ['xmovie']
 
 # This is for the partial knowledge attack
 # Possible values: Any combination of non-sensitive fields existing in the dataset
