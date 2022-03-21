@@ -37,7 +37,7 @@ For example, to reproduce the results presented in table 13 or to see how the CS
 * This will launch CSMIA attack on the Adult DT model: `python main.py --param configs/table_13/csmia_dt.yaml`
 * This will launch CSMIA attack on the Adult DNN model: `python main.py --param configs/table_13/csmia_dnn.yaml`
 
-### Binary valued single sensitive attribute inference (LOMIA and CSMIA attack on Adult, GSS and 538 dataset trained DT and DNN models)
+### Binary valued single sensitive attribute inference (LOMIA, CSMIA and FJRMIA attack on Adult, GSS and 538 dataset trained DT and DNN models)
 
 The following lists out all the configurations required to perform the binary valued single sensitive attribute inference attack on Adult and GSS dataset. To run the attack simply type in the terminal in the code directory: `python main.py --param configuration_file`
 
@@ -45,12 +45,16 @@ The following lists out all the configurations required to perform the binary va
 | ------- | ------- | ------- | ------- |
 | Adult | DT | LOMIA | `configs/table_13/lomia_dt.yaml` |
 | Adult | DT | CSMIA | `configs/table_13/csmia_dt.yaml` |
+| Adult | DT | FJRMIA | `configs/table_13/fjrmia_dt.yaml` |
 | Adult | DNN | LOMIA | `configs/table_13/lomia_dnn.yaml` |
 | Adult | DNN | CSMIA | `configs/table_13/csmia_dnn.yaml` |
+| Adult | DNN | FJRMIA | `configs/table_13/fjrmia_dnn.yaml` |
 | GSS | DT | LOMIA | `configs/table_12/lomia_dt.yaml` |
 | GSS | DT | CSMIA | `configs/table_12/csmia_dt.yaml` |
+| GSS | DT | FJRMIA | `configs/table_12/fjrmia_dt.yaml` |
 | GSS | DNN | LOMIA | `configs/table_12/lomia_dnn.yaml` |
 | GSS | DNN | CSMIA | `configs/table_12/csmia_dnn.yaml` |
+| GSS | DNN | FJRMIA | `configs/table_12/fjrmia_dnn.yaml` |
 
 If LOMIA/CSMIA attack is to be performed on 538 dataset to infer Alcohol attribute, the following code snippet can be used as the parameter file after the `--param` tag while running the python code.
 
