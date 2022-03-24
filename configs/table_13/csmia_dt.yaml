@@ -3,7 +3,7 @@
 dataset: Adult
 
 # Name of the attack being experimented
-# Possible values: CSMIA, LOMIA
+# Possible values: CSMIA, LOMIA, FJRMIA
 attack_type: CSMIA
 
 # Type of the target model being attacked

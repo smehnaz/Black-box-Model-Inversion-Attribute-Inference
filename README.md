@@ -8,7 +8,7 @@
  * [How to use param files](#how-to-use-param-files)
 
 # Basics
-This contains the implementation of the Model Inversion Attack paper **"Are Your Sensitive Attributes Private? Novel Model Inversion Attribute Inference Attacks on Classification Models"**. The paper introduced two attacks - **CSMIA** and **LOMIA** (the later does not require confidence values from the prediction queries). The attacks are performed on three tabular datasets that are publicly available = **Adult**, **GSS**, and **538**. The goal of the attacks is to predict sensitive values missing from the query. Attacks are also performed in various settings -
+This contains the implementation of the Model Inversion Attack paper **"Are Your Sensitive Attributes Private? Novel Model Inversion Attribute Inference Attacks on Classification Models"**. The paper introduced two attacks - **CSMIA** and **LOMIA** (the later does not require confidence values from the prediction queries). Along with **CSMIA** and **LOMIA** this repo also contains the previous model inversion attack **FJRMIA** which was used as a baseline. The attacks are performed on three tabular datasets that are publicly available = **Adult**, **GSS**, and **538**. The goal of the attacks is to predict sensitive values missing from the query. Attacks are also performed in various settings -
 
 * Inferring a single binary sensitive attribute
 * Inferring a single multi-valued sensitive attribute
@@ -36,6 +36,12 @@ For example, to reproduce the results presented in table 13 or to see how the CS
 * This will launch LOMIA attack on the Adult DNN model: `python main.py --param configs/table_13/lomia_dnn.yaml`
 * This will launch CSMIA attack on the Adult DT model: `python main.py --param configs/table_13/csmia_dt.yaml`
 * This will launch CSMIA attack on the Adult DNN model: `python main.py --param configs/table_13/csmia_dnn.yaml`
+
+### Comment
+
+The results may slightly vary from the paper on **CSMIA** experiments when attacked on **GSS** or **538** dataset. In **CSMIA**, we query the target model for different sensitive attribute values using APIs and decide the instance's sensitive attribute value based on returned confidence scores. For some samples/instances, we obtain the same confidence scores with different sensitive attribute values. In some cases, the number of these samples for which the target model returns the same confidence value could be significant. Especially, in instances of case 3 (section 4.1), there are multiple candidates of sensitive attribute values with the lowest confidence scores. In those cases, we randomly select one of the possible values as the estimated sensitive attribute value. This results in selecting different sensitive attribute values for those instances in different runs. Therefore, while comparing with ground truth, it might result in slightly different overall performances in different metrics. The results we have shown in the paper represent the median of multiple runs.
+
+Also, for **LOMIA** experiments, the attack models in this repo are trained using a different bigML account than the paper. BigML applies its own optimization techniques while generating the attack models (ensembles), there might be slight variation in results produced by this implementation.
 
 ### Binary valued single sensitive attribute inference (LOMIA, CSMIA and FJRMIA attack on Adult, GSS and 538 dataset trained DT and DNN models)
 
